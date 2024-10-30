@@ -11,10 +11,10 @@ st.set_page_config(
     layout="wide"
 )
 
-# Chemins locaux
-local_file_path = "C:/Users/user/Desktop/ISE2/Mously/Projet_Final/donnees_imputees_knn_mondial.xlsx"
-background_image_accueil = "C:/Users/user/Desktop/ISE2/Mously/Projet_Final/image3.jpg"
-background_image_comparer = "C:/Users/user/Desktop/ISE2/Mously/Projet_Final/image2.jpg"
+# Chemins relatifs
+local_file_path = "donnees_imputees_knn_mondial.xlsx"
+background_image_accueil = "image3.jpg"
+background_image_comparer = "image2.jpg"
 
 # Fonction pour encoder une image en base64
 def get_base64_image(image_path):
